@@ -21,6 +21,11 @@ export network=10.10.10.0/24
 
 ### Network scan
 ```bash
+nmap -sn -n $network
+```
+
+List only IP's in network
+```bash
 nmap -sn -n $network | grep for | cut -d" " -f5
 ```
 
