@@ -8,10 +8,10 @@ It is currently **work in progress**.
   - [NetCat](/recon#netcat)
   - [Web Enumeration](/recon#web-enumeration)
 - [Exploitation](#) - TODO
-  - [Web - TODO](#)
-    - [LFI - TODO](#)
-    - [XSS - TODO](#)
-    - [SQL Injection - TODO](#)
+  - [Web](#) - TODO
+    - [LFI](#) - TODO
+    - [XSS](#) - TODO
+    - [SQL Injection](#) - TODO
 - [Post-exploitation](/post-exploitation)
   - [Reverse Shell](/post-exploitation#reverse-shell)
     - [bash](/post-exploitation#bash)
@@ -20,9 +20,9 @@ It is currently **work in progress**.
     - [perl](/post-exploitation#perl)
     - [ruby](/post-exploitation#ruby)
     - [powershell](/post-exploitation#powershell)
-  - [Linux - TODO](#)
-    - [Enumeration - TODO](#)
-    - [Privilege Escalation - TODO](#)
-  - [Windows - TODO](#)
-    - [Enumeration - TODO](#)
-    - [Privilege Escalation - TODO](#)
+  - [Linux](#) - TODO
+    - [Enumeration](#) - TODO
+    - [Privilege Escalation](#) - TODO
+  - [Windows](#) - TODO
+    - [Enumeration](#) - TODO
+    - [Privilege Escalation](#) - TODO
