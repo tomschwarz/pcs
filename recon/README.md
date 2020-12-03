@@ -16,12 +16,12 @@ export ip=10.10.10.123
 
 Set network as a variable:  
 ```bash
-export netw=10.10.10.0/24
+export network=10.10.10.0/24
 ```
 
 ### Network scan
 ```bash
-nmap -sn -n $netw | grep for | cut -d" " -f5
+nmap -sn -n $network | grep for | cut -d" " -f5
 ```
 
 ### Stealth scans
