@@ -5,8 +5,8 @@ It is currently **work in progress**.
 ## Table of Contents
 - [Recon](/recon)
   - [Nmap](/recon#nmap)
-  - [NetCat](#)
-  - [Web Enumeration](#)
+  - [NetCat](/recon#netcat)
+  - [Web Enumeration](/recon#web-enumeration)
 - [Exploitation](#)
   - [Web](#)
     - [LFI](#)
