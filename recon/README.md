@@ -1,8 +1,8 @@
 # Recon
 Tools and options I use for reconnaissance:
 - [Nmap](#nmap)
-- [NetCat](#)
-- [Web Enumeration](#)
+- [NetCat](#netcat)
+- [Web Enumeration](#web-enumeration)
 
 ----
 
@@ -64,4 +64,61 @@ nmap -T4 -F $ip
 ### Output scan into a file
 ```bash
 nmap -sV -oN fileName $ip
+```
+
+----
+
+## NetCat
+
+### Port scan
+
+Scan only one port:  
+```bash
+nc  -nvz $ip 80
+```
+
+Scan port range:  
+```bash
+nc -nvz $ip 0-1000
+```
+
+### Transferring files
+From client to server:  
+```bash
+# Listener on server
+nc -lvp 4444 > file-name.txt
+
+## Sending from client
+nc -v <IP> 4444 < file-name.txt
+```
+
+----
+
+## Web Enumeration
+
+## dirb
+Standard dirb scan:  
+```bash
+dirb http://target.com /path/to/wordlist
+```
+
+Scan for extensions e.g. `.php`:  
+```bash
+dirb http://target.com /path/to/wordlist -X .php
+```
+
+## gobuster
+Standard gobuster scan:  
+```bash
+gobuster dir -u https://target.com -w /usr/share/wordlists/dirb/big.txt
+```
+
+Scan for extensions e.g. `.php`:  
+```bash
+gobuster dir -u https://target.com -w /usr/share/wordlists/dirb/big.txt -x .php
+```
+
+Scan with blacklist on status codes e.g. `403,404`:  
+```bash
+gobuster dir -u https://target.com -w /usr/share/wordlists/dirb/big.txt -b 403,404
 ```
