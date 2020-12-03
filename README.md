@@ -1,2 +1,30 @@
 # Pentest Cheat sheet
-My personal cheat sheet for Pentest/CTF's.
+My personal cheat sheet for Pentest/CTF's.  
+It is currently **work in progress**.
+
+## Table of Contents
+- [Recon](#)
+  - [Nmap](#)
+  - [NetCat](#)
+  - [Web Enumeration](#)
+- [Exploitation](#)
+  - [Web](#)
+    - [LFI](#)
+    - [XSS](#)
+    - [SQL Injection](#)
+- [Post-exploitation](#)
+  - [Reverse Shell](#)
+    - [bash](#)
+    - [python](#)
+    - [php](#)
+    - [perl](#)
+    - [ruby](#)
+    - [powershell](#)
+  - [Linux](#)
+    - [Enumeration](#)
+    - [Privilege Escalation](#)
+  - [Windows](#)
+    - [Enumeration](#)
+    - [Privilege Escalation](#)
+- [Resources](#)
+  - [HTTP Server](#)
