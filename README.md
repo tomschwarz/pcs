@@ -3,8 +3,8 @@ My personal cheat sheet for Pentest/CTF's.
 It is currently **work in progress**.
 
 ## Table of Contents
-- [Recon](#)
-  - [Nmap](#)
+- [Recon](/recon)
+  - [Nmap](/recon#nmap)
   - [NetCat](#)
   - [Web Enumeration](#)
 - [Exploitation](#)
