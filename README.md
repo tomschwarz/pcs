@@ -7,7 +7,7 @@ It is currently **work in progress**.
   - [Nmap](/recon#nmap)
   - [NetCat](/recon#netcat)
   - [Web Enumeration](/recon#web-enumeration)
-- [Exploitation - TODO](#)
+- [Exploitation](#) - TODO
   - [Web - TODO](#)
     - [LFI - TODO](#)
     - [XSS - TODO](#)
