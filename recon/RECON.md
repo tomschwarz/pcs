@@ -1,5 +1,8 @@
 # Recon
-Tools and options I use for reconnaissance.
+Tools and options I use for reconnaissance:
+- [Nmap](#nmap)
+- [NetCat](#)
+- [Web Enumeration](#)
 
 ----
 
@@ -14,6 +17,11 @@ export ip=10.10.10.123
 Set network as a variable:  
 ```bash
 export netw=10.10.10.0/24
+```
+
+### Network scan
+```bash
+nmap -sn -n $netw | grep for | cut -d" " -f5
 ```
 
 ### Stealth scans
