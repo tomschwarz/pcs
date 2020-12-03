@@ -1,2 +1,2 @@
-# pentest-cheatsheet
-My cheat sheet for Pentest/CTF's.
+# Pentest Cheat sheet
+My personal cheat sheet for Pentest/CTF's.
