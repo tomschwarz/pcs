@@ -7,11 +7,11 @@ It is currently **work in progress**.
   - [Nmap](/recon#nmap)
   - [NetCat](/recon#netcat)
   - [Web Enumeration](/recon#web-enumeration)
-- [Exploitation](#) - TODO
-  - [Web](#) - TODO
-    - [LFI](#) - TODO
-    - [XSS](#) - TODO
-    - [SQL Injection](#) - TODO
+- [Exploitation](/exploitation)
+  - [Web](/exploitation#web)
+    - [LFI](/exploitation#lfi)
+    - [XSS](/exploitation#xss)
+    - [SQL Injection](/exploitation#sql-injection)
 - [Post-exploitation](/post-exploitation)
   - [Reverse Shell](/post-exploitation#reverse-shell)
     - [bash](/post-exploitation#bash)
