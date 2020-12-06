@@ -14,6 +14,7 @@ It is currently **work in progress**.
     - [SQL Injection](/exploitation#sql-injection)
 - [Post-exploitation](/post-exploitation)
   - [Reverse Shell](/post-exploitation#reverse-shell)
+    - [sh](/post-exploitation#sh)
     - [bash](/post-exploitation#bash)
     - [python](/post-exploitation#python)
     - [php](/post-exploitation#php)
