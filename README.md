@@ -27,3 +27,7 @@ It is currently **work in progress**.
   - [Windows](#) - TODO
     - [Enumeration](#) - TODO
     - [Privilege Escalation](#) - TODO
+
+## Useful Links
+- [GTFOBins](https://gtfobins.github.io/)
+- [HackTricks](https://book.hacktricks.xyz/)
