@@ -3,6 +3,7 @@ Tools and options I use for reconnaissance:
 - [Nmap](#nmap)
 - [NetCat](#netcat)
 - [Web Enumeration](#web-enumeration)
+- [Find SUID/SGID files](#find-suid-sgid-files)
 
 ----
 
@@ -121,4 +122,18 @@ gobuster dir -u https://target.com -w /usr/share/wordlists/dirb/big.txt -x .php
 Scan with blacklist on status codes e.g. `403,404`:  
 ```bash
 gobuster dir -u https://target.com -w /usr/share/wordlists/dirb/big.txt -b 403,404
+```
+
+----
+
+## Find SUID/SGID files
+```bash
+# Find files with SUID in current directory
+find . -perm /4000
+
+# Find files with SGID in current directory
+find . -perm /2000
+
+# Find files with SUID and SGID in current directory
+find . -perm /6000
 ```
