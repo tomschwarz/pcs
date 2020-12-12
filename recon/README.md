@@ -3,7 +3,7 @@ Tools and options I use for reconnaissance:
 - [Nmap](#nmap)
 - [NetCat](#netcat)
 - [Web Enumeration](#web-enumeration)
-- [Find SUID/SGID files](#find-suid-sgid-files)
+- [Find SUID/SGID files](#find-suidsgid-files)
 
 ----
 
