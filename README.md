@@ -10,6 +10,7 @@ It is currently **work in progress**.
   - [Find SUID/SGID files](/recon#find-suidsgid-files)
 - [Exploitation](/exploitation)
   - [Web](/exploitation#web)
+    - [Shell](/exploitation#shell)
     - [LFI](/exploitation#lfi)
     - [XSS](/exploitation#xss)
     - [SQL Injection](/exploitation#sql-injection)
