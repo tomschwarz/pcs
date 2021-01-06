@@ -6,6 +6,7 @@ It is currently **work in progress**.
 - [Recon](/recon)
   - [Nmap](/recon#nmap)
   - [NetCat](/recon#netcat)
+  - [SMB](/recon#smb)
   - [Web Enumeration](/recon#web-enumeration)
   - [Find SUID/SGID files](/recon#find-suidsgid-files)
 - [Exploitation](/exploitation)
