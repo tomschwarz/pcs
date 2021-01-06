@@ -1,5 +1,5 @@
 # Pentest Cheat sheet
-My personal cheat sheet for Pentest/CTF's.  
+A collection of snippets of codes and commands to make your pentest/CTF easier.  
 It is currently **work in progress**.
 
 ## Table of Contents
