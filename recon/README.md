@@ -3,6 +3,7 @@ Tools and options I use for reconnaissance:
 - [Nmap](#nmap)
 - [NetCat](#netcat)
 - [SMB](#smb)
+- [DNS](#dns)
 - [Web Enumeration](#web-enumeration)
 - [Find SUID/SGID files](#find-suidsgid-files)
 
@@ -124,6 +125,34 @@ Connect to a SMB share:
 smbclient <target>
 # OR
 smbclient -U "" <target>
+```
+
+----
+
+## DNS
+Enumerate DNS with [dnsenum](https://github.com/fwaeytens/dnsenum):
+```bash
+# Avoiding reverse lookup (–noreverse)
+dnsenum --noreverse -o dns-enum.xml <domain>
+```
+
+Enumerate DNS with nmap:
+```bash
+nmap -T4 -p 53 --script dns-brute <domain>
+```
+
+Enumerate DNS with [dnsrecon](https://github.com/darkoperator/dnsrecon):
+```bash
+dnsrecon -d <domain>
+```
+
+### Zone transfer
+```bash
+# Using "dig"
+dig axfr @<ip> <domain>
+
+# Using "host"
+host -l <domain> <ip>
 ```
 
 ----
