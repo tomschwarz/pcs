@@ -25,11 +25,11 @@ It is currently **work in progress**.
     - [perl](/post-exploitation#perl)
     - [ruby](/post-exploitation#ruby)
     - [powershell](/post-exploitation#powershell)
-  - [Linux](#) - TODO
-    - [Enumeration](#) - TODO
+  - [Linux](/post-exploitation#linux)
+    - [Enumeration](/post-exploitation#enumeration-on-linux)
     - [Privilege Escalation](#) - TODO
-  - [Windows](#) - TODO
-    - [Enumeration](#) - TODO
+  - [Windows](/post-exploitation#windows)
+    - [Enumeration](/post-exploitation#enumeration-on-windows)
     - [Privilege Escalation](#) - TODO
 
 ## Useful Links
