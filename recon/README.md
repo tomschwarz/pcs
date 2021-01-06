@@ -2,6 +2,7 @@
 Tools and options I use for reconnaissance:
 - [Nmap](#nmap)
 - [NetCat](#netcat)
+- [SMB](#smb)
 - [Web Enumeration](#web-enumeration)
 - [Find SUID/SGID files](#find-suidsgid-files)
 
@@ -91,6 +92,38 @@ nc -lvp 4444 > file-name.txt
 
 ## Sending from client
 nc -v <IP> 4444 < file-name.txt
+```
+
+----
+
+## SMB
+Enumerate SMB shares:
+```bash
+smbmap -H <target>
+# OR
+smbclient -L <target>
+```
+
+Enumerate files and directories recursive on SMB shares:
+```bash
+smbmap -R --depth 5 -H <target>
+```
+
+Enumerate SMB with nmap:
+```bash
+# Enum shares
+nmap --script smb-enum-shares -p 139,445 <target>
+
+# Check for vulnerabilities
+nmap --script smb-vuln* -p 139,445 <target>
+```
+
+Connect to a SMB share:
+```bash
+# Connect with no user (NULL session)
+smbclient <target>
+# OR
+smbclient -U "" <target>
 ```
 
 ----
