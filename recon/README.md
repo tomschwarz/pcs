@@ -64,6 +64,11 @@ nmap -O $ip
 nmap -T4 -F $ip
 ```
 
+### Evading firewals
+```bash
+nmap -P0 $ip
+```
+
 ### Output scan into a file
 ```bash
 nmap -sV -oN fileName $ip
