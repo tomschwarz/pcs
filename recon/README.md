@@ -130,6 +130,8 @@ Connect to a SMB share:
 smbclient <target>
 # OR
 smbclient -U "" <target>
+# OR
+smbclient -U "" <target> -N
 ```
 
 ----
