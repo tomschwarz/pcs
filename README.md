@@ -25,6 +25,7 @@ It is currently **work in progress**.
     - [perl](/post-exploitation#perl)
     - [ruby](/post-exploitation#ruby)
     - [powershell](/post-exploitation#powershell)
+    - [groovy](/post-exploitation#groovy)
   - [Port Forwarding](/post-exploitation#port-forwarding)
   - [Linux](/post-exploitation#linux)
     - [Enumeration](/post-exploitation#enumeration-on-linux)
