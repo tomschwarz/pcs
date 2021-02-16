@@ -28,12 +28,12 @@ It is currently **work in progress**.
     - [groovy](/POST-EXPLOITATION.md#groovy)
     - [CMD shell](/POST-EXPLOITATION.md#cmd-shell)
   - [Port Forwarding](/POST-EXPLOITATION.md#port-forwarding)
-  - [Linux](/POST-EXPLOITATION.md#linux)
-    - [Enumeration](/POST-EXPLOITATION.md#enumeration-on-linux)
-    - [Privilege Escalation](#) - TODO
-  - [Windows](/POST-EXPLOITATION.md#windows)
-    - [Enumeration](/POST-EXPLOITATION.md#enumeration-on-windows)
-    - [Privilege Escalation](#) - TODO
+- [Linux](/LINUX.md#linux)
+  - [Enumeration](/LINUX.md#enumeration-on-linux)
+  - [Privilege Escalation](#) - TODO
+- [Windows](/WINDOWS.md#windows)
+  - [Enumeration](/WINDOWS.md#enumeration-on-windows)
+  - [Privilege Escalation](#) - TODO
 
 ## Useful Links
 - [GTFOBins](https://gtfobins.github.io/)
