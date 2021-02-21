@@ -16,6 +16,7 @@ It is currently **work in progress**.
     - [LFI](/EXPLOITATION.md#lfi)
     - [XSS](/EXPLOITATION.md#xss)
     - [SQL Injection](/EXPLOITATION.md#sql-injection)
+    - [Wordpress](/EXPLOITATION.md#wordpress)
 - [Post-exploitation](/POST-EXPLOITATION.md)
   - [Reverse Shell](/POST-EXPLOITATION.md#reverse-shell)
     - [sh](/POST-EXPLOITATION.md#sh)
