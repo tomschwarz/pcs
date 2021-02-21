@@ -10,6 +10,7 @@ It is currently **work in progress**.
   - [DNS](/RECON.md#dns)
   - [Web Enumeration](/RECON.md#web-enumeration)
   - [Find SUID/SGID files](/RECON.md#find-suidsgid-files)
+  - [CeWL](/RECON.md#cewl)
 - [Exploitation](/EXPLOITATION.md)
   - [Web](/EXPLOITATION.md#web)
     - [Shell](/EXPLOITATION.md#shell)

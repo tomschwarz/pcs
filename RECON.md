@@ -6,6 +6,7 @@ Tools and options I use for reconnaissance:
 - [DNS](#dns)
 - [Web Enumeration](#web-enumeration)
 - [Find SUID/SGID files](#find-suidsgid-files)
+- [CeWL](#cewl)
 
 ----
 
@@ -206,3 +207,12 @@ find . -perm /2000
 # Find files with SUID and SGID in current directory
 find . -perm /6000
 ```
+
+----
+
+## CeWL
+Generate custom wordlists:
+```bash
+$ cewl -w <OUTPUT-FILE> -a <URL>
+```
+
