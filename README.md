@@ -36,6 +36,9 @@ It is currently **work in progress**.
 - [Windows](/windows/#windows)
   - [Enumeration](/windows/#enumeration-on-windows)
   - [Privilege Escalation](#) - TODO
+- [Buffer Overflow](/buffer-overflow/#buffer-overflow)
+  - [Tools](/buffer-overflow/#useful-tools)
+  - [Links](/buffer-overflow/#useful-links)
 
 ## Useful Links
 - [GTFOBins](https://gtfobins.github.io/)
