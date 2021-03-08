@@ -128,11 +128,11 @@ nmap --script smb-vuln* -p 139,445 <target>
 Connect to a SMB share:
 ```bash
 # Connect with no user (NULL session)
-smbclient <target>
+smbclient \\\\<IP>\\<SHARE>
 # OR
-smbclient -U "" <target>
+smbclient -U "" \\\\<IP>\\<SHARE>
 # OR
-smbclient -U "" <target> -N
+smbclient -U "" \\\\<IP>\\<SHARE> -N
 ```
 
 ----
