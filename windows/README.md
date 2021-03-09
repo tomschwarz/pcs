@@ -11,6 +11,7 @@ Automated enumeration tools:
 - [winPEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS)
 - [Seatbelt](https://github.com/GhostPack/Seatbelt)
 - [SharpUp](https://github.com/GhostPack/SharpUp)
+- [Watson](https://github.com/rasta-mouse/Watson)
 
 ## Other
 Some useful stuff.
