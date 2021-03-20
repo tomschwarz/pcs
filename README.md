@@ -42,4 +42,5 @@ It is currently **work in progress**.
 
 ## Useful Links
 - [GTFOBins](https://gtfobins.github.io/)
+- [WADcoms](https://wadcoms.github.io/)
 - [HackTricks](https://book.hacktricks.xyz/)
