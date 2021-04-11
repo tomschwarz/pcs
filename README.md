@@ -39,6 +39,7 @@ It is currently **work in progress**.
 - [Buffer Overflow](/buffer-overflow/#buffer-overflow)
   - [Tools](/buffer-overflow/#useful-tools)
   - [Links](/buffer-overflow/#useful-links)
+- [Common Ports](/common-ports)
 
 ## Useful Links
 - [GTFOBins](https://gtfobins.github.io/)
