@@ -12,6 +12,6 @@ Automated enumeration tools:
 - [Linux smart enumeration](https://github.com/diego-treitos/linux-smart-enumeration)
 - [pspy](https://github.com/DominicBreuker/pspy)
 
-Useful links:
+### Useful links:
 - [Enumeration Checklist](https://book.hacktricks.xyz/linux-unix/linux-privilege-escalation-checklist)
 
