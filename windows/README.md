@@ -14,6 +14,9 @@ Automated enumeration tools:
 - [SharpUp](https://github.com/GhostPack/SharpUp)
 - [Watson](https://github.com/rasta-mouse/Watson)
 
+### Useful links
+- [Enumeration Checklist](https://book.hacktricks.xyz/windows/checklist-windows-privilege-escalation)
+
 ## Mimikatz
 - [mimikatz](https://github.com/gentilkiwi/mimikatz)
 
